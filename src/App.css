@@ -1,0 +1,123 @@
+div.main {
+  margin: 0 auto;
+  width: 40%;
+  padding: 100px;
+  border-right: 1px solid #80808047;
+  border-left: 1px solid #80808047;
+}
+
+div.main div.head {
+  text-align: center;
+}
+
+div.main div.head h1 {
+  display: block;
+}
+
+div.main div.top {
+}
+
+div.main div.top h2 {
+  color: darkblue;
+}
+div.main div.top ul.topList {
+  text-decoration: none;
+  list-style: none;
+}
+
+div.main div.top ul.topList li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+div.main div.top ul.topList li div.products {
+  display: flex;
+  align-items: center;
+}
+
+div.main div.top ul.topList li div.products div.circle {
+  width: 20px;
+  height: 20px;
+  border: 1px solid darkblue;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+div.main div.top ul.topList li div.products h3 {
+  margin-left: 10px;
+}
+
+div.main div.top ul.topList li svg.delete {
+}
+
+div.main div.top div.add {
+  display: flex;
+  align-items: center;
+}
+
+div.main div.top div.add svg.plus-svg {
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+div.main div.top div.add form {
+  display: flex;
+  width: 100%;
+}
+
+div.main div.top div.add form input {
+  width: 100%;
+  height: 30px;
+  display: block;
+}
+
+div.main div.top div.add form button {
+  background: darkblue;
+  color: #fff;
+  padding: 6px;
+  border-radius: 2px;
+  cursor: pointer;
+  width: 100px;
+}
+
+div.main div.bottom {
+}
+
+div.main div.bottom h2 {
+  font-size: 24px;
+  color: darkblue;
+}
+
+div.main div.bottom ul.bottomList {
+  list-style: none;
+}
+
+div.main div.bottom ul.bottomList li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+div.main div.bottom ul.bottomList li div.work {
+  display: flex;
+  align-items: center;
+}
+
+div.main div.bottom ul.bottomList li div.work svg.tick {
+  border: 1px solid #06c692;
+  padding: 6px;
+  border-radius: 50%;
+}
+
+div.main div.bottom ul.bottomList li div.work h4 {
+  margin-left: 10px;
+  color: #06c692;
+}
+
+div.main div.bottom ul.bottomList li div.icons {
+}
+
+div.main div.bottom ul.bottomList li div.icons svg.revert {
+  margin-right: 10px;
+}
